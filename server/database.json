@@ -1,0 +1,10 @@
+{
+    "dev": {
+        "driver": "pg",
+        "host": "postgres",
+        "database": "${DB_NAME}",
+        "user": "${DB_USER}",
+        "password": "${DB_PASSWORD}",
+        "schema": "public"
+    }
+}
