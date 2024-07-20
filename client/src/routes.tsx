@@ -2,10 +2,11 @@ import SignInPage from "./Pages/SignInPage/SignIn";
 import SignUpPage from "./Pages/SignUpPage/SignUp";
 import { createBrowserRouter, Navigate } from "react-router-dom";
 import Layout from "./Pages/Layout";
-import { HomePage } from "./Pages/HomePage";
-import { AccountPage } from "./Pages/AccountPage/AccountPage";
-import { ProtectedRoute } from "./components/ProtectedRoute";
+
 import Redirect from "./components/Redirect";
+import AccountPage from "./Pages/AccountPage/AccountPage";
+import HomePage from "./Pages/HomePage";
+import ProtectedRoute from "./components/ProtectedRoute";
 
 export const router = createBrowserRouter([
   {
