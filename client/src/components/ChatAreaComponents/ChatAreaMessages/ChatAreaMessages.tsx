@@ -1,9 +1,9 @@
 import { Box } from "@mui/material";
 import { useAppSelector } from "../../../redux/store";
-import { LoadingSpinner } from "../../LoadingSpinner/LoadingSpinner";
 
-import { ChatAreaMessage } from "../ChatAreaMessage/ChatAreaMessage";
 import useChatMessages from "../../../hooks/useChatMessages";
+import ChatAreaMessage from "../ChatAreaMessage/ChatAreaMessage";
+import LoadingSpinner from "../../LoadingSpinner/LoadingSpinner";
 
 const ChatAreaMessages = () => {
   const currentUser = useAppSelector((state) => state.userState.user);

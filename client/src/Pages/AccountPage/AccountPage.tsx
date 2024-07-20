@@ -1,9 +1,9 @@
 import { Box, Divider, Grid, Typography } from "@mui/material";
-import { AccountPP } from "../../components/AccountPP/AccountPP";
-import { AccountInformation } from "../../components/AccountInformation/AccountInformation";
+import AccountInformation from "../../components/AccountInformation/AccountInformation";
+import AccountPP from "../../components/AccountPP/AccountPP";
+import LoadingSpinner from "../../components/LoadingSpinner/LoadingSpinner";
+import useAccount from "../../hooks/useAccount";
 
-import { LoadingSpinner } from "../../components/LoadingSpinner/LoadingSpinner";
-import { useAccount } from "../../hooks/useAccount";
 
 const AccountPage = () => {
   const {

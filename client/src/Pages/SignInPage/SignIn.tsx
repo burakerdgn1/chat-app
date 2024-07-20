@@ -10,7 +10,6 @@ import {
 } from "@mui/material";
 import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
 import { Mail } from "@mui/icons-material";
-import { LoadingSpinner } from "../../components/LoadingSpinner/LoadingSpinner";
 import useSignIn from "../../hooks/useSignIn";
 import {
   StyledAvatar,
@@ -19,6 +18,7 @@ import {
   StyledContainer,
   StyledFormBox,
 } from "./SignInPage.styles";
+import LoadingSpinner from "../../components/LoadingSpinner/LoadingSpinner";
 
 const SignInPage = () => {
   const { formData, handleFormChange, handleSignIn, isLoading } = useSignIn();

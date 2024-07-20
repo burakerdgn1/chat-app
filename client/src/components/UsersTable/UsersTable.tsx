@@ -13,10 +13,10 @@ import {
   Avatar,
 } from "@mui/material";
 import { Person } from "@mui/icons-material";
-import { LoadingSpinner } from "../LoadingSpinner/LoadingSpinner";
 import { getComparator, stableSort } from "../../utils/sortingUtil";
 import { User } from "../../types/User";
 import { StyledPaper, StyledTableContainer } from "./UsersTable.styles";
+import LoadingSpinner from "../LoadingSpinner/LoadingSpinner";
 
 const UserTable = () => {
   const token = localStorage.getItem("token");

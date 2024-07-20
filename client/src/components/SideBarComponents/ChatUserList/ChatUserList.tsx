@@ -1,10 +1,10 @@
 import React from "react";
-import { ChatUser } from "../ChatUser/ChatUser";
 import { Divider, List, ListItem, ListItemButton } from "@mui/material";
 import { useDispatch } from "react-redux";
 import { setSelectedUser } from "../../../redux/slices/userSlice";
 import { useAppSelector } from "../../../redux/store";
 import { selectFilteredChatUsers } from "../../../redux/selectors/chatUserSelector";
+import ChatUser from "../ChatUser/ChatUser";
 const ChatUserList = () => {
   const dispatch = useDispatch();
   const users = useAppSelector(selectFilteredChatUsers);

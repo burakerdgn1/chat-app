@@ -1,13 +1,14 @@
-import { ChatSearch } from "../SideBarComponents/ChatSearch/ChatSearch";
 import { Divider } from "@mui/material";
-import { ChatUserList } from "../SideBarComponents/ChatUserList/ChatUserList";
-import { ChatNav } from "../SideBarComponents/ChatNav/ChatNav";
+
 import { useGetChatUsersQuery } from "../../redux/api/userApi";
 import { useDispatch } from "react-redux";
 import { setChatUsers } from "../../redux/slices/userSlice";
 import { useEffect } from "react";
-import { LoadingSpinner } from "../LoadingSpinner/LoadingSpinner";
 import { StyledDrawer } from "./SideBar.styles";
+import LoadingSpinner from "../LoadingSpinner/LoadingSpinner";
+import ChatNav from "../SideBarComponents/ChatNav/ChatNav";
+import ChatSearch from "../SideBarComponents/ChatSearch/ChatSearch";
+import ChatUserList from "../SideBarComponents/ChatUserList/ChatUserList";
 
 const SideBar = () => {
   const {

@@ -9,7 +9,6 @@ import { Error, LockOutlined } from "@mui/icons-material";
 import validator from "validator";
 import "react-toastify/dist/ReactToastify.css";
 import useSignUp from "../../hooks/useSignUp";
-import { LoadingSpinner } from "../../components/LoadingSpinner/LoadingSpinner";
 import {
   StyledAvatar,
   StyledBox,
@@ -17,6 +16,7 @@ import {
   StyledContainer,
   StyledFormBox,
 } from "./SignUpPage.styles";
+import LoadingSpinner from "../../components/LoadingSpinner/LoadingSpinner";
 
 const SignUpPage = () => {
   const {

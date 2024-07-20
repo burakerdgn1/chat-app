@@ -1,7 +1,7 @@
 import { AddPhotoAlternate, AttachFile, Send } from "@mui/icons-material";
 import { IconButton, InputAdornment } from "@mui/material";
 import { StyledTextField, ChatBoxContainer } from "./ChatAreaText.styles";
-import { useSendMessage } from "../../../hooks/useSendMessage";
+import useSendMessage from "../../../hooks/useSendMessage";
 
 const ChatAreaText = () => {
   const { message, setMessage, handleSendMessage, selectedUser } =
