@@ -7,6 +7,7 @@ Welcome to the Chat App! This application allows users to chat with each other i
 - [Technologies Used](#technologies-used)
 - [Visuals](#visuals)
 - [Setup Instructions](#setup-instructions)
+- [Technical Details](#technical-details)
 - [Features](#features)
 - [Project Structure](#project-structure)
 - [License](#license)
@@ -115,7 +116,30 @@ If you prefer to run it locally, follow these steps:
     ```sh
     docker-compose up --build
     ```
+## Technical Details
 
+### Frontend
+- **Modern React Approach:** The frontend is built using the latest features of React, including hooks and functional components.
+- **Modular Project Structure:** The project follows a modular structure, making it easy to maintain and scale.
+- **Custom Hooks:** Custom hooks are used to encapsulate reusable logic and improve code readability.
+- **Styled Components:** All styling is done using styled-components, ensuring a consistent look and feel across the app.
+- **Responsive Design:** The app is fully responsive, ensuring it works seamlessly on all devices.
+- **State Management:** Redux and Redux Toolkit are used for efficient state management.
+- **Routing:** React Router is used for client-side routing.
+- **Real-time Updates:** Socket.IO is used for real-time communication.
+- **Notifications:** Toastify is used for non-blocking notifications and alerts.
+
+### Backend
+- **Class-based Structure:** The backend is structured using classes, promoting code reuse and readability.
+- **Modular Project Structure:** The project is organized into modules, making it easy to manage and scale.
+- **Raw SQL Queries:** Instead of using an ORM, raw SQL queries are used for database interactions, giving more control over the database operations.
+- **TypeScript:** TypeScript is used to provide static type-checking, making the code more robust and maintainable.
+- **JWT Authentication:** JSON Web Tokens (JWT) are used for secure authentication.
+- **Redis for Security:** Redis is used to prevent brute-force attacks by locking accounts after multiple failed login attempts.
+- **Docker:** The backend is containerized using Docker, ensuring consistency across different environments.
+- **WebSockets:** Socket.IO is used for real-time communication between the server and clients.
+- **Environment Variables:** Configuration is managed using environment variables for better security and flexibility.
+  
 ## Features
 - **Real-Time Messaging:** Chat with other users in real-time.
 - **Online/Offline Status:** See which users are online or offline in real-time.
