@@ -18,7 +18,7 @@ import {
   StyledFormBox,
 } from "./SignUpPage.styles";
 
-export default function SignUpPage() {
+const SignUpPage = () => {
   const {
     handleFormChange,
     handleSignUp,
@@ -144,4 +144,6 @@ export default function SignUpPage() {
       </StyledBox>
     </StyledContainer>
   );
-}
+};
+
+export default SignUpPage;

@@ -1,7 +1,7 @@
 import { CircularProgress } from "@mui/material";
 import { StyledBox } from "./LoadingSpinner.styles";
 
-export const LoadingSpinner = () => {
+const LoadingSpinner = () => {
   return (
     <>
       <StyledBox>
@@ -10,3 +10,5 @@ export const LoadingSpinner = () => {
     </>
   );
 };
+
+export default LoadingSpinner;

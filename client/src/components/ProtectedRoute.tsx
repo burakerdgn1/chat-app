@@ -1,7 +1,7 @@
 import { Navigate, Outlet, useLocation } from "react-router-dom";
 import { useAppSelector } from "../redux/store";
 
-export const ProtectedRoute = () => {
+const ProtectedRoute = () => {
   const user = useAppSelector((state) => state.userState.user);
   const location = useLocation();
 
@@ -14,3 +14,5 @@ export const ProtectedRoute = () => {
   }
   return <Outlet />;
 };
+
+export default ProtectedRoute;

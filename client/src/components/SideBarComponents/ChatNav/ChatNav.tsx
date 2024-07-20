@@ -9,7 +9,7 @@ import {
 } from "./ChatNav.styles";
 import { useAppSelector } from "../../../redux/store";
 
-export const ChatNav = () => {
+const ChatNav = () => {
   const currentUser = useAppSelector((state) => state.userState.user);
 
   return (
@@ -30,3 +30,5 @@ export const ChatNav = () => {
     </StyledToolbar>
   );
 };
+
+export default ChatNav;

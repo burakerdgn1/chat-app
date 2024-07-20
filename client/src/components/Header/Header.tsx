@@ -11,7 +11,7 @@ import {
   ToolbarContainer,
 } from "./Header.styles";
 import DropdownMenu from "../DropdownMenu/DropdownMenu";
-export const Header = () => {
+const Header = () => {
   const navigate = useNavigate();
 
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
@@ -70,3 +70,5 @@ export const Header = () => {
     </Box>
   );
 };
+
+export default Header;

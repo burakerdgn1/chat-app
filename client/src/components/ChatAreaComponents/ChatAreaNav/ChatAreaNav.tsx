@@ -15,7 +15,7 @@ import {
   StyledToolbar,
 } from "./ChatAreaNav.styles";
 
-export const ChatAreaNav = () => {
+const ChatAreaNav = () => {
   const [selectedUser, setUser] = useState<{
     id: string;
     fullName: string;
@@ -71,3 +71,5 @@ export const ChatAreaNav = () => {
     </StyledToolbar>
   );
 };
+
+export default ChatAreaNav;

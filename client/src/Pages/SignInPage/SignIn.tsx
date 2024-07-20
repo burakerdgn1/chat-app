@@ -20,7 +20,7 @@ import {
   StyledFormBox,
 } from "./SignInPage.styles";
 
-export default function SignInPage() {
+const SignInPage = () => {
   const { formData, handleFormChange, handleSignIn, isLoading } = useSignIn();
 
   if (isLoading) {
@@ -105,4 +105,6 @@ export default function SignInPage() {
       </StyledBox>
     </StyledContainer>
   );
-}
+};
+
+export default SignInPage;

@@ -11,7 +11,7 @@ import { useAppSelector } from "./redux/store";
 import { useLogoutMutation } from "./redux/api/authApi";
 import { router } from "./routes";
 
-function App() {
+const App = () => {
   const token = localStorage.getItem("token");
   const {
     data: user,
@@ -55,6 +55,6 @@ function App() {
       <RouterProvider router={router} />
     </>
   );
-}
+};
 
 export default App;

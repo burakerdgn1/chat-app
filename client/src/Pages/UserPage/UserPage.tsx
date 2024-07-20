@@ -2,7 +2,7 @@ import { SideBar } from "../../components/SideBar/SideBar";
 import { ChatArea } from "../../components/ChatAreaComponents/ChatArea/ChatArea";
 import { UserPageContainer } from "./UserPage.styles";
 
-export const UserPage = () => {
+const UserPage = () => {
   return (
     <UserPageContainer>
       <SideBar />
@@ -10,3 +10,5 @@ export const UserPage = () => {
     </UserPageContainer>
   );
 };
+
+export default UserPage;

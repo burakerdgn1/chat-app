@@ -9,7 +9,7 @@ import { useEffect } from "react";
 import { LoadingSpinner } from "../LoadingSpinner/LoadingSpinner";
 import { StyledDrawer } from "./SideBar.styles";
 
-export const SideBar = () => {
+const SideBar = () => {
   const {
     data: chatUsers,
     isSuccess,
@@ -45,3 +45,5 @@ export const SideBar = () => {
     </StyledDrawer>
   );
 };
+
+export default SideBar;

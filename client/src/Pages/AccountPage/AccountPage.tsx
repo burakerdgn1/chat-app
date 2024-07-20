@@ -5,7 +5,7 @@ import { AccountInformation } from "../../components/AccountInformation/AccountI
 import { LoadingSpinner } from "../../components/LoadingSpinner/LoadingSpinner";
 import { useAccount } from "../../hooks/useAccount";
 
-export const AccountPage = () => {
+const AccountPage = () => {
   const {
     userData,
     isLoading,
@@ -52,3 +52,4 @@ export const AccountPage = () => {
     </Box>
   );
 };
+export default AccountPage;

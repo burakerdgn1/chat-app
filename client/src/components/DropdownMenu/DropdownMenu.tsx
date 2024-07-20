@@ -15,7 +15,7 @@ interface SettingMenuProps {
   anchorEl: null | HTMLElement;
 }
 
-export const DropdownMenu: React.FC<SettingMenuProps> = ({
+const DropdownMenu: React.FC<SettingMenuProps> = ({
   handleClose,
   open,
   anchorEl,

@@ -5,8 +5,7 @@ import { useDispatch } from "react-redux";
 import { setSelectedUser } from "../../../redux/slices/userSlice";
 import { useAppSelector } from "../../../redux/store";
 import { selectFilteredChatUsers } from "../../../redux/selectors/chatUserSelector";
-
-export const ChatUserList = () => {
+const ChatUserList = () => {
   const dispatch = useDispatch();
   const users = useAppSelector(selectFilteredChatUsers);
 
@@ -46,3 +45,5 @@ export const ChatUserList = () => {
     </List>
   );
 };
+
+export default ChatUserList;

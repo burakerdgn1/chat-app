@@ -3,7 +3,7 @@ import { IconButton, InputAdornment } from "@mui/material";
 import { StyledTextField, ChatBoxContainer } from "./ChatAreaText.styles";
 import { useSendMessage } from "../../../hooks/useSendMessage";
 
-export const ChatAreaText = () => {
+const ChatAreaText = () => {
   const { message, setMessage, handleSendMessage, selectedUser } =
     useSendMessage();
 
@@ -42,3 +42,5 @@ export const ChatAreaText = () => {
     </ChatBoxContainer>
   );
 };
+
+export default ChatAreaText;

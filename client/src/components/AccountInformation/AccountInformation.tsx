@@ -17,9 +17,7 @@ interface AccountInfoProps {
   }) => void;
 }
 
-export const AccountInformation: React.FC<AccountInfoProps> = ({
-  userData,
-}) => {
+const AccountInformation: React.FC<AccountInfoProps> = ({ userData }) => {
   // const [formData, setFormData] = useState<{
   //   fullName: string;
   //   userName: string;
@@ -115,3 +113,5 @@ export const AccountInformation: React.FC<AccountInfoProps> = ({
     </Grid>
   );
 };
+
+export default AccountInformation;

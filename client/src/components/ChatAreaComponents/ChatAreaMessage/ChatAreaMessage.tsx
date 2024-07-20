@@ -19,7 +19,7 @@ interface ChatMessageProps {
   message: Message;
 }
 
-export const ChatAreaMessage: React.FC<ChatMessageProps> = ({
+const ChatAreaMessage: React.FC<ChatMessageProps> = ({
   user,
   message,
 }) => {
@@ -67,3 +67,5 @@ export const ChatAreaMessage: React.FC<ChatMessageProps> = ({
     </MessageContainer>
   );
 };
+
+export default ChatAreaMessage;

@@ -16,7 +16,7 @@ interface ChatUserProps {
   profilePhotoSrc: string;
 }
 
-export const ChatUser: React.FC<ChatUserProps> = ({
+const ChatUser: React.FC<ChatUserProps> = ({
   userName,
   fullName,
   id,
@@ -45,3 +45,5 @@ export const ChatUser: React.FC<ChatUserProps> = ({
     </UserContainer>
   );
 };
+
+export default ChatUser;

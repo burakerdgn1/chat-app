@@ -3,7 +3,7 @@ import { ChatAreaNav } from "../ChatAreaNav/ChatAreaNav";
 import { ChatAreaText } from "../ChatAreaText/ChatAreaText";
 import { ChatMessagesContainer, StyledChatArea } from "./ChatArea.styles";
 
-export const ChatArea = () => {
+const ChatArea = () => {
   return (
     <>
       <StyledChatArea>
@@ -16,3 +16,5 @@ export const ChatArea = () => {
     </>
   );
 };
+
+export default ChatArea;

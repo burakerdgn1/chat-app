@@ -18,7 +18,7 @@ interface AccountPPProps {
   ) => void;
 }
 
-export const AccountPP: React.FC<AccountPPProps> = ({
+const AccountPP: React.FC<AccountPPProps> = ({
   profilePictureSrc,
   handleProfilePictureChange,
   handleSaveClick,
@@ -78,3 +78,5 @@ export const AccountPP: React.FC<AccountPPProps> = ({
     </ContainerGrid>
   );
 };
+
+export default AccountPP;

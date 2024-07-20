@@ -5,7 +5,7 @@ import { LoadingSpinner } from "../../LoadingSpinner/LoadingSpinner";
 import { ChatAreaMessage } from "../ChatAreaMessage/ChatAreaMessage";
 import useChatMessages from "../../../hooks/useChatMessages";
 
-export const ChatAreaMessages = () => {
+const ChatAreaMessages = () => {
   const currentUser = useAppSelector((state) => state.userState.user);
   const user = useAppSelector((state) => state.userState.selectedUser);
   const { conversations, lastMessageRef, isLoading, isSuccess } =
@@ -25,3 +25,5 @@ export const ChatAreaMessages = () => {
     </Box>
   );
 };
+
+export default ChatAreaMessages;
