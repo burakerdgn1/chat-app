@@ -2,15 +2,13 @@ import express, { Request, Response, NextFunction } from "express";
 import dotenv from "dotenv";
 import cors from "cors";
 import { UserRoute } from "./modules/user/user.route";
-import { AuthRoute } from "./shared/auth/auth.route";
 import { Database } from "./database/database";
 import { DatabaseMigration } from "./database/database.migration";
 import http from "http";
 import { Server as SocketIOServer } from "socket.io";
 import { UserController } from "./modules/user/user.controller";
 import { UserService } from "./modules/user/user.service";
-import { AuthService } from "./shared/auth/auth.service";
-import { AuthController } from "./shared/auth/auth.controller";
+
 import { MessageRoute } from "./modules/message/message.route";
 import { MessageController } from "./modules/message/message.controller";
 import { MessageService } from "./modules/message/message.service";
@@ -18,6 +16,9 @@ import { MessageRepository } from "./modules/message/message.repository";
 import { UserRepository } from "./modules/user";
 import { MessageCreateDto } from "./modules/message/dtos/message.create.dto";
 import path from "path";
+import { AuthService } from "./modules/auth/auth.service";
+import { AuthController } from "./modules/auth/auth.controller";
+import { AuthRoute } from "./modules/auth/auth.route";
 
 dotenv.config();
 
