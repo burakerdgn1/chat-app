@@ -1,7 +1,7 @@
 # Chat App
 
 ## Introduction
-Welcome to the Chat App! This application allows users to chat with each other in real-time. It includes features like real-time online/offline status, a search functionality to find users, personal account management, and an admin page for viewing all user information. The app is responsive and works on all devices. Security is enhanced using Redis to prevent brute-force attacks.
+Welcome to the Chat App! This application allows users to chat with each other in real-time. It includes features like real-time online/offline status, personal account management, an admin page for viewing all user information, a search functionality to find users. The app is responsive and works on all devices. Security is enhanced using Redis to prevent brute-force attacks.
 
 ## Table of Contents
 - [Technologies Used](#technologies-used)
@@ -137,7 +137,7 @@ If you prefer to run it locally, follow these steps:
 - **JWT Authentication:** JSON Web Tokens (JWT) are used for secure authentication.
 - **Redis for Security:** Redis is used to prevent brute-force attacks by locking accounts after multiple failed login attempts.
 - **Docker:** The backend is containerized using Docker, ensuring consistency across different environments.
-- **WebSockets:** Socket.IO is used for real-time communication between the server and clients.
+- **WebSocket:** Socket.IO is used for real-time communication between the server and clients.
 - **Environment Variables:** Configuration is managed using environment variables for better security and flexibility.
   
 ## Features
