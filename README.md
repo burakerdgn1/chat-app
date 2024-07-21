@@ -31,6 +31,7 @@ Welcome to the Chat App! This application allows users to chat with each other i
 - ![Postgres](https://img.shields.io/badge/Postgres-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 - ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
 - ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+- ![REST API](https://img.shields.io/badge/REST%20API-02569B?style=for-the-badge&logo=rest-api&logoColor=white)
 - ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101)
 - ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
@@ -134,6 +135,7 @@ If you prefer to run it locally, follow these steps:
 - **Modular Project Structure:** The project is organized into modules, making it easy to manage and scale.
 - **Raw SQL Queries:** Instead of using an ORM, raw SQL queries are used for database interactions, giving more control over the database operations.
 - **TypeScript:** TypeScript is used to provide static type-checking, making the code more robust and maintainable.
+- **REST API:** The backend exposes a REST API for the frontend to communicate with. This API follows RESTful principles and allows CRUD operations on user data.
 - **JWT Authentication:** JSON Web Tokens (JWT) are used for secure authentication.
 - **Redis for Security:** Redis is used to prevent brute-force attacks by locking accounts after multiple failed login attempts.
 - **Docker:** The backend is containerized using Docker, ensuring consistency across different environments.
