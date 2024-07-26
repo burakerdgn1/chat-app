@@ -67,7 +67,7 @@ The frontend app is already published on Netlify, so you can access it directly:
 If you prefer to run it locally, follow these steps:
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/your-repo-name.git
+    git clone git@github.com:burakerdgn1/chat-app.git
     ```
 2. Navigate to the frontend directory:
     ```sh
