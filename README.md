@@ -9,7 +9,6 @@ Welcome to the Chat App! This application allows users to chat with each other i
 - [Setup Instructions](#setup-instructions)
 - [Technical Details](#technical-details)
 - [Features](#features)
-- [Project Structure](#project-structure)
 - [License](#license)
 
 ## Technologies Used
